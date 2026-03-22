@@ -1,16 +1,16 @@
-# AI Smart Alarm ⏰
+# AI Smart Alarm
 
-## 🚀 Features
+## Features
 - AI object detection alarm
 - Webcam capture
 - No snooze system
 
-## 🛠 Tech Stack
+## Tech Stack
 - React
 - Flask
 - YOLOv8
 
-## ▶️ Run Locally
+## Run Locally
 
 ### Backend
 pip install -r requirements.txt
