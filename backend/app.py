@@ -6,7 +6,7 @@ import base64
 import random
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins="*")
 
 try:
     from ultralytics import YOLO
