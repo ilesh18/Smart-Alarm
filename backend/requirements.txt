@@ -4,3 +4,4 @@ ultralytics
 opencv-python
 numpy
 Pillow
+waitress
