@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://smart-alarm-g579.onrender.com";
 
 export default function App() {
   const [screen, setScreen] = useState("setup");
