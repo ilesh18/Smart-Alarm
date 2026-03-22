@@ -3,7 +3,7 @@ services:
     name: smart-alarm-backend
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    startCommand: waitress-serve --host=0.0.0.0 --port=5000 app:app
     plan: free
 ```
 
@@ -14,4 +14,5 @@ flask-cors
 ultralytics
 opencv-python-headless
 numpy
-gunicorn
+waitress
+
