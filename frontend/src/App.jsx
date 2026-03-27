@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-const API = "https://smart-alarm-3.onrender.com";
+const API = "http://localhost:5000/api";
 
 export default function App() {
   const [screen, setScreen] = useState("setup");
@@ -257,7 +257,7 @@ export default function App() {
       {/* ── DONE ── */}
       {screen === "done" && (
         <div className="card done">
-          <div className="icon">🎉</div>
+          <div className="icon"></div>
           <h1>Good Morning!</h1>
           <p>Alarm dismissed. Have a productive day!</p>
           <button className="btn primary" onClick={handleReset}>Set New Alarm</button>
