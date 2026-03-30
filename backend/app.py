@@ -67,7 +67,7 @@ def verify_object():
     return jsonify({
         "success": task_found,
         "detected_objects": list(set(detected_names)),
-        "message": "Alarm dismissed! Great job! 🎉" if task_found
+        "message": "Alarm dismissed! Great job! " if task_found
                    else f"'{task.capitalize()}' not found. Try again!"
     })
 
