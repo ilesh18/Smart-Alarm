@@ -4,7 +4,6 @@
 AI Smart Alarm is an intelligent alarm system designed to eliminate oversleeping by enforcing physical wake-up actions. Unlike traditional alarms, this system uses computer vision to ensure the user is awake and active before the alarm can be dismissed.
 
 It combines real-time object detection with a strict no-snooze mechanism, making it a practical productivity tool.
-
 ---
 
 ## Features
