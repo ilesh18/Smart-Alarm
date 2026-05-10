@@ -11,7 +11,6 @@ It combines real-time object detection with a strict no-snooze mechanism, making
 - No snooze system (forces action to stop alarm)  
 - Fast and responsive detection pipeline  
 
----
 ## Tech Stack
 
 ### Frontend
