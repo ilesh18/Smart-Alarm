@@ -12,7 +12,6 @@ It combines real-time object detection with a strict no-snooze mechanism, making
 - Fast and responsive detection pipeline  
 
 ## Tech Stack
-
 ### Frontend
 - React  
 
